@@ -1,0 +1,11 @@
+Qué ocurre con los cambios tras --hard:
+
+Los cambios staged (en el índice) se descartan completamente.
+Los cambios unstaged (en el working directory) también se eliminan.
+El working directory y el staging quedan exactamente igual que el commit al que apuntas (HEAD), sin rastro de modificaciones locales.
+
+Contenido actual de progreso.txt:
+Coincide exactamente con la versión guardada en el último commit (HEAD); cualquier cambio previo (staged o unstaged) se ha perdido.
+
+Por qué es la “opción nuclear”:
+Porque borra sin posibilidad directa de recuperación todos los cambios locales (staged y unstaged), dejando el repositorio como si nunca se hubieran hecho.

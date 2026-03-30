@@ -1,0 +1,15 @@
+En la rama main
+Tu rama está adelantada a 'origin/main' por 3 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	cp1-historial-inicial.txt
+	cp2-soft-reset.txt
+	cp3-mixed-reset.txt
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+
+--soft mueve el HEAD pero mantiene intactos staging y working directory, mientras que --mixed mueve el HEAD y limpia el staging, dejando los cambios solo en el working directory
+
+En ambos casos, los commits a los que apuntaba antes HEAD dejan de estar en la rama (no son visibles en el historial normal), pero siguen existiendo temporalmente y pueden recuperarse (por ejemplo, vía reflog) hasta que Git los elimine por recolección de basura

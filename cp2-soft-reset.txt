@@ -1,0 +1,19 @@
+En la rama main
+Tu rama está adelantada a 'origin/main' por 4 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	cp1-historial-inicial.txt
+	cp2-soft-reset.txt
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+
+142d402 (HEAD -> main) Paso 4: registro de usuarios (mejorado)
+dd8e3c7 fix cosas
+abddcb4 Paso 2: módulo de login
+b62b991 Paso 1: estructura inicial
+3627074 (origin/main, origin/HEAD) add deadline
+19e22b3 Initial commit
+
+--soft mueve el HEAD al commit indicado, pero no modifica ni el área de staging (index) ni los archivos del directorio de trabajo

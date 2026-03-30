@@ -2,3 +2,4 @@ Paso 1: estructura inicial del proyecto.
 Paso 2: añade módulo de login.
 Paso 3: refactoriza código de login.
 Paso 4: añade módulo de registro de usuarios.
+Paso extra: documentación.

@@ -1,0 +1,23 @@
+Cambios fuera del área de stage tras el reset:
+M	progreso.txt
+
+En la rama main
+Tu rama está adelantada a 'origin/main' por 3 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+	modificados:     progreso.txt
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+	cp1-historial-inicial.txt
+	cp2-soft-reset.txt
+	cp3-mixed-reset.txt
+	cp4-hard-reset.txt
+	cp5-reset-head.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+Sirve para quitar cambios del staging sin borrarlos, por ejemplo si hiciste add por error o quieres reorganizar commits; los cambios siguen en el working directory.

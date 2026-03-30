@@ -1,0 +1,6 @@
+82ddf4e Paso 4: registro de usuarios
+dd8e3c7 fix cosas
+abddcb4 Paso 2: módulo de login
+b62b991 Paso 1: estructura inicial
+3627074 add deadline
+19e22b3 Initial commit
